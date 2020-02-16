@@ -1,0 +1,82 @@
+body{
+	background-color: rgba(1,50,1,0.8);
+	font-family: 'Ubuntu', serif;}
+
+h1, h2{
+	font-family: 'Raleway', sans-serif;}
+
+h1{
+	color: #142850;
+	font-weight: 900px;
+	font-size: 70px;}
+h2{
+	color: #5b8c85;
+	font-size: 40px;
+	font-weight: 300px;}
+
+p{
+	color:#b0a160;
+	font-weight: 500px;
+	font-size: 20px;}
+
+a{
+	text-decoration: none;
+	color: #0c7b93;}
+
+a:hover{
+	color:#b0a160;}
+
+#pdp{
+	border-radius:	60%;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;}
+
+.container{
+	width: 700px;
+	margin:  40px auto;
+	text-align: center;}
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	border: 1px solid rgba(30,30,30,0.1);
+	border-radius: 80px;
+	margin: 20px 0px }
+
+.image-circle{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%}
+
+#icons{
+	list-style: none;
+	padding-left: 0px;}
+
+#icons{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: white;
+	padding: 30px;
+	border-radius: 700px;}
+
+
+#icons{
+	font-size: 80px;
+	color: #fdba9a;}
+
+#icons i:hover {
+	color: #5b8c85;}
+
+@media (max-width: 500px){
+	.container{
+		width: 400px
+	}
+}
+
+@media (max-width: 800px){
+	.container{
+		width: 600px
+	}
+}
